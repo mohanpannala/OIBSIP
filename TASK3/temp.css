@@ -1,0 +1,47 @@
+
+
+.main-container{
+    background-color: black;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.temp-frame{
+    background-color:white;
+    box-shadow: inset;
+    width: auto;
+    width: 500px;
+    height: 400px;
+    margin-top: 100px;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.temp-head{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.error-msg{
+    color: red;
+    font-size: 20px;
+
+}
+
+.from-to{
+    padding-bottom: 15px;           
+}
+
+.to-name{
+    padding-left: 10px;
+}
+.ente-num{
+    font-size: 20px;
+    font-weight: bold;
+}
+.result-head{
+    font-size: 20px;
+    font-weight: bold;
+}

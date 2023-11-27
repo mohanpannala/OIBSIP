@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>temperature</title>
+    <link rel="stylesheet"  href="temp.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main-container d-flex flex-row justify-content-center">
+        <div class="temp-frame">
+        <div class="container">
+        <h1 class="temp-head">TEMPERATURE CONVERTER</h1>
+        <form id="myform">
+        
+        <div class="from-to">
+            <label for="seleFrom">FROM</label>
+            <select id="seleFrom">
+                <option value="celsious" selected>celsious</option>
+                <option value="fahrenheit">fahrenheit</option>
+                <option value="kelvin">kelvin</option>
+            </select>
+
+            <label for="seleTo" class="to-name">TO</label>
+            <select id="seleTo">
+                <option value="celsious">celsious</option>
+                <option value="fahrenheit" selected>fahrenheit</option>
+                <option value="kelvin">kelvin</option>
+            </select>
+        </div>
+            
+        <div>
+         <label for="temp" class="ente-num">ENTER THE TEMPERATURE</label>
+         <input type="text" class="form-control" id="temp"/>
+         <p class="error-msg" id="errorMsg"></p>
+        </div>
+
+        <div>
+        <h1 class="result-head">RESULT</h1>
+        <textarea rows="2" cols="30" id="result"></textarea>
+        </div>
+        
+        <buton type="submit" class="btn btn-primary" id="convertBtn">Convert</buton>
+        <buton type="submit" class="btn btn-primary" id="resetBtn">Reset</buton>
+        
+     </form>
+   </div>
+        
+    </div>
+    </div>
+    </div>
+    <script src="temp.js"></script>
+</body>
+</html>
