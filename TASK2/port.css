@@ -1,0 +1,136 @@
+.image{
+    height: 300px;
+    width:  300px;
+    
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+    border-bottom-left-radius: 500px;
+    border-bottom-right-radius: 500px;
+
+
+}
+.profile-container{
+    padding-top: 120px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.main-container{
+    background-color: rgb(34, 30, 30);
+    background-size: cover;
+    padding-top: 200px;
+    height: 45vh;
+    padding: 30px;
+}
+
+.image-adjust{
+    padding-top: 50px;
+}
+
+.myname{
+    color: rgb(184, 11, 11);
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.desigantion{
+    color: mintcream;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+.bottom-container{
+    padding: 40px;
+    margin-top: 40px;
+}
+.about-head{
+    color:goldenrod;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-top: 6a0px;
+
+}
+.info{
+    color: black;
+font-size: 20px;
+font-weight: 400;
+}
+
+
+.myskills-head{
+    color: crimson;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.skills-html{
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50px;
+    color: aliceblue;
+}
+
+.skills-html1{
+    width: 150px;
+    height: 50px;
+    border-width: 0px;
+    color: aliceblue;
+    margin-left: 15px;
+    border-radius: 5px;
+    background-color: blueviolet;
+}
+
+.education-head{
+    color: rgb(4, 141, 88);
+    font-weight: bold;
+    padding-top: 100px;
+
+}
+.btech-name{
+    color: black;
+    font-weight: 500;
+    font-size: 30px;
+    padding-top: 40px;
+}
+.para{
+    color: black;
+    font-weight: 430;
+    font-size: 18px;
+}
+
+.hilight{
+    font-weight: bold;
+}
+
+.experience-head{
+    color: rgb(102, 4, 141);
+    font-weight: bold;
+    padding-top: 100px;
+    padding-bottom: 20px;
+
+}
+
+.project-head{
+    color: rgb(219, 18, 95);
+    font-weight: bold;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.contact-head{
+    color: rgb(219, 125, 18);
+    font-weight: bold;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.para1{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 30px;
+}
